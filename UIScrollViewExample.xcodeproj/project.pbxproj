@@ -17,7 +17,6 @@
 		5694BCB916BB004D0040D0D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5694BCB816BB004D0040D0D7 /* Default@2x.png */; };
 		5694BCBB16BB004D0040D0D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5694BCBA16BB004D0040D0D7 /* Default-568h@2x.png */; };
 		5694BCBE16BB004D0040D0D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5694BCBD16BB004D0040D0D7 /* ViewController.m */; };
-		5694BCC116BB004D0040D0D7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5694BCBF16BB004D0040D0D7 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +35,6 @@
 		5694BCBA16BB004D0040D0D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5694BCBC16BB004D0040D0D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5694BCBD16BB004D0040D0D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5694BCC016BB004D0040D0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 				5694BCB416BB004D0040D0D7 /* AppDelegate.m */,
 				5694BCBC16BB004D0040D0D7 /* ViewController.h */,
 				5694BCBD16BB004D0040D0D7 /* ViewController.m */,
-				5694BCBF16BB004D0040D0D7 /* ViewController.xib */,
 				5694BCAB16BB004D0040D0D7 /* Supporting Files */,
 			);
 			path = UIScrollViewExample;
@@ -162,7 +159,6 @@
 				5694BCB716BB004D0040D0D7 /* Default.png in Resources */,
 				5694BCB916BB004D0040D0D7 /* Default@2x.png in Resources */,
 				5694BCBB16BB004D0040D0D7 /* Default-568h@2x.png in Resources */,
-				5694BCC116BB004D0040D0D7 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +184,6 @@
 				5694BCAE16BB004D0040D0D7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5694BCBF16BB004D0040D0D7 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5694BCC016BB004D0040D0D7 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +286,7 @@
 				5694BCC616BB004D0040D0D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

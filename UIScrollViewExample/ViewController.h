@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+typedef void (^CompletionBlock)(void);
+
+@interface ViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate> {
+    
+}
+
+@property (nonatomic, retain) UITableView *table;
+@property (copy, nonatomic) CompletionBlock scrollViewCompletionBlock;
+@property (nonatomic) int numberOfRows;
 
 @end
